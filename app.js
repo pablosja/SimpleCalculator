@@ -14,9 +14,9 @@ function calc(num1, num2, oper) {
     }
 }
 
-function MakeMath(num1, num2, oper) {
+function DoMath(num1, num2, oper) {
     const result = calc(num1, num2, oper);
     console.log(`Resultado: ${result}`);
 }
 
-MakeMath(2, 3, '+');
+DoMath(2, 3, '+');
